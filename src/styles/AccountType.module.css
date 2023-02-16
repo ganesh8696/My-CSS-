@@ -1,0 +1,60 @@
+.buttonBody {
+  background-color: #e1c16e;
+  border-radius: 5px;
+  color: black;
+  width: 80px;
+  height: 30px;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  height: 100vh;
+  padding: 30px;
+}
+.content1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.h1 {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: black;
+  font-weight: 500;
+}
+.text {
+  font-family: "Poppins";
+  font-size: medium;
+  color: black;
+  font-weight: bold;
+}
+.content2 {
+  margin-top: 20px;
+}
+.content3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.2rem;
+  margin-top: 20px;
+  padding: 10px 0;
+  border-bottom: 2px solid gray;
+}
+.title {
+  font-size: 15px;
+  font-family: "Poppins";
+  color: black;
+  font-weight: 500;
+}
+.titleText {
+  font-family: "Poppins";
+  font-size: 10px;
+  color: black;
+  font-weight: bold;
+}
